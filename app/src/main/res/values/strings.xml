@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">25.2-am_lessons</string>
-    <string name="welcome_message">Hello mundo</string>
+    <string name="welcome_message">Hola Mundo</string>
     <string name="button">Button</string>
+    <string name="log_message">probando mensajes</string>
 
 </resources>
