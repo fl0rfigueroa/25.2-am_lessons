@@ -1,5 +1,6 @@
 package com.example.a252_am_lessons;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -15,6 +16,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
+    @SuppressLint("ResourceAsColor")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         //3 crear el button
         Button button = new Button(this);
+        button.setBackgroundColor(R.color.violet);
         button.setText(R.string.button);
 
         //4 agregar los hijos al container
